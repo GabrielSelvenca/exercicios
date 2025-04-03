@@ -9,7 +9,6 @@ resultados.
 const matriz = require("../matriz.json")
 
 let soma = 0
-let i = 0
 
 for (let i = 0; i < matriz[i].length; i++) {
     matriz.forEach(row => {
