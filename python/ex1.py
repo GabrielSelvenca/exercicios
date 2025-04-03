@@ -3,11 +3,7 @@
 
 # Função de gerar arrays
 
-from utils import gerar, mostrar_array
-
-array = gerar()
-
-mostrar_array(array)
+from utils import array
 
 maior = 0
 
