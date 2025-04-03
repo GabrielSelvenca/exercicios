@@ -10,9 +10,8 @@ while True:
     except:
         print("Digite um NÚMERO")
         continue
-
-for i, num in enumerate(array):
-    valor = array.pop(i)
-    array.insert(i+k, valor)
     
-print(array)
+n = len(array)
+k %= n
+
+print(f"Array invertido: {array[-k:] + array[:-k]}")

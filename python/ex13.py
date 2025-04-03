@@ -4,8 +4,6 @@
 from utils import matriz
 
 matriz = matriz[:25]
-i=0
 
-for row in matriz:
+for i, row in enumerate(matriz):
     print(row[i])
-    i+=1

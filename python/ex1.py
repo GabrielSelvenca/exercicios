@@ -1,8 +1,6 @@
 # Encontre o maior número
 # Dado um array, retorne o maior número presente nele.
 
-# Função de gerar arrays
-
 from utils import array
 
 maior = 0
