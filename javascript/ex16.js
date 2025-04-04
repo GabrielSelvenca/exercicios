@@ -5,7 +5,9 @@ Uma matriz quadrada é simétrica se for igual à sua transposta.
 
 */
 
-const matriz = require("../matriz.json")
+let matriz = require("../matriz.json")
+
+matriz = matriz.slice(0, matriz[0].length)
 
 const rows = matriz.length
 const cols = matriz[0].length
