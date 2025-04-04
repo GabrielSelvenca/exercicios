@@ -21,4 +21,8 @@ function ehSimetrica() {
     return true
 }
 
-console.log("A matriz é simétrica" ? ehSimetrica() : "A matriz não é simétrica")
+if (ehSimetrica()){
+    console.log("A matriz é simétrica")
+} else {
+    console.log("A matriz não é simétrica")
+}
